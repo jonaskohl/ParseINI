@@ -19,9 +19,9 @@ in different color -->
 window.ParseINI(content string, parseValueTypes boolean)
 ```
 <dl>
-  <dt><var>content</var></dt>
+  <dt><code><var>content</var></code></dt>
   <dd>The content of the INI file as string</dd>
-  <dt><var>parseValueTypes</var></dt>
+  <dt><code><var>parseValueTypes</var></code></dt>
   <dd>
     If <code>true</code> or not present, the parser tries to resolve
     all types in the INI file, e.g. if the key-value-pair is
